@@ -1,0 +1,43 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A .git directory is created. You should then add files and make a commit.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is an in between state. It is a good place to store files if
+you have finished what you need to on them, but are not done with the entire
+commit yet.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+Do what I described in the last question and put files you have finished editing
+in the staging area and then after you have finished editing all the files
+necessary, make a commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When adding different modes or features to a program (different languages, difficulties,
+controls, devices, etc). Also while sorting features into developed and bugging
+statuses (one branch for finished things one for buggy ones).
+
+How do the diagrams help you visualize the branch structure?
+
+They allow you to see which branches are accessible and the parents of every
+branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+It makes them both children of the same branch. And allows for the features of
+both to be used together. We draw the diagram accordingly to represent that the
+merge can access the contents of both the previous branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Git's automatic merging is much faster and usually does a good job. However there
+can be ambiguity in what should and shouldn't be merged. In this case it is
+better for the user to decide.
